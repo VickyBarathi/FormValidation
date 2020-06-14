@@ -1,0 +1,94 @@
+*{
+	padding: 0px;
+	margin:0px;
+
+}	
+body{
+  background-color: lightblue;
+  align-items: center;
+  justify-content: center;
+  margin-left: 30%
+
+}
+.container{
+   position: relative;
+   margin-top: 20%;
+   margin-left: 50px;
+   width: 47.5%;
+   height: auto;
+   background:#dedede;
+   border-radius: 5px;
+
+}
+.label{
+	align-items: center;
+	padding:30px;
+	margin-left:25%;
+	font-size: 35px;
+	font-weight: bold;
+	color:#130f40;
+	
+}
+.loginform{
+	padding: 20px 40px;
+	background-color: transparent;
+
+}
+.loginform .font{
+	padding: 10px;
+	font-size: 20px;
+	color:black;
+	margin:15px 0;
+
+}
+.loginform input{
+	height:30px;
+	width: 500px;
+	font-size: 20px;
+	outline: none;
+    border:1px solid silver;
+}
+.loginform .font1{
+	padding:10px;
+	margin-top: 150px;
+	font-size: 20px;
+	color:black;
+	margin:5px 0;
+}
+.loginform input{
+	height:30px;
+	width: 500px;
+	font-size: 20px;
+	outline: none;
+	border:1px solid silver;
+}
+.loginform button{
+    margin:15px 0 30px 0;
+    height: 30px;
+    width: 500px;
+	font-size:20px;
+	color: white;
+	outline:none;
+	cursor:pointer;
+	font-weight: bold;
+	background:#1A237E;
+	border-radius: 10px solid #3949AB;
+	transition: 1s;
+}
+.loginform button:hover{
+	background:#151c6a; 
+}
+.loginform #email_error,
+.loginform #pass_error{
+
+	margin-top: 5px;
+	width:400px;
+	font-size: 20px;
+	color: red;
+	background:rgba(255,0,0,0.1);
+	text-align: center;
+	padding: 5px 8px;
+	border-radius: 3px;
+	border:2px solid transparent; 
+	display: none;
+}

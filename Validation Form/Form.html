@@ -1,0 +1,27 @@
+<html>
+<head lang="en">
+	<title>FORM</title>
+	<link rel="stylesheet" href="Style.css"></li>
+</head>
+<body>
+    <div class="container">
+    	<h1 class="label" >USER LOGIN</h1>
+    	<form class="loginform"  method="post" name="form" onsubmit ="return validated()">
+    		<div class="font">Email or Phone</div>
+    	    <input type="text" name="email">
+    	    <div id="email_error">Please fill up your Correct Email or Phone</div>
+    		
+    		<div class="font1">Password </div>
+    		<input type="Password" name = "password">
+    		<div id="pass_error">Please fill up your password</div>
+    		<br>
+    		<br>
+
+    		<button type ="submit">Login</button>
+    	</form>
+    </div>
+    		
+    		<script src="validate.js"></script>
+
+</body>
+</html>
